@@ -15,7 +15,7 @@ def spark():
 @pytest.fixture(scope="module")
 def df(spark):
     # Read the cleaned parquet dataset
-    return spark.read.parquet("synthea-etl-pyspark/data/clean/patients_with_encounters")
+    return spark.read.parquet("data/clean/patients_with_encounters")
 
 # Test 1: NO NULL patient_id
 def test_no_null_patient_id(df):
