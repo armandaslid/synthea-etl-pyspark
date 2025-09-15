@@ -78,3 +78,9 @@ This project demonstrates how to work with **PySpark / Spark** to process **FHIR
 ### 📝 Notes
 - **Parquet format** is preferred over CSV for large datasets: faster, columnar, and space-efficient.
 - The pipeline can easily be extended with more tests, metrics, or transformations.
+
+---
+
+### Next Related Project
+
+- [Delta Lake Pipeline project](https://github.com/armandaslid/synthea-delta-pipeline) showcasing Delta Lake capabilities like ACID compliance, time travel, and incremental updates.
